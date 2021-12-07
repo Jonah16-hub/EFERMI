@@ -1,0 +1,71 @@
+body {
+  background-color:darkblue;
+  color: white;
+  margin: 100px;
+  background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 245, 0, 0.6)),
+                  url("bg.jpg");
+}
+
+
+h1 {
+  font-family: Calibri, cursive;
+  font-style: italic;
+  font-weight: 100;
+  text-align: center;
+  text-shadow: .1em .1em 0 hsl(200 50% 30%);
+  color: white;
+  
+}
+
+blockquote {
+  font-size: 22px;
+  font-style: italic;
+  font-family: Monte Carlo;
+  lign-height: 30px;
+  color: yellow;
+}
+
+p {
+  font-size: 22px;
+  font-family:  Calibri;
+  color: yellow;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: lightgreen;
+}
+
+a:hover {
+  color: hotpink;
+}
+
+a:active {
+  color: white;
+}
+
+table {
+	border: 2px solid white;
+	padding: 0px;
+	font-family: Impact, fantasy;
+	border-collapse: collapse;
+	color: black;
+}
+
+tr, td, th {
+	padding: 5px;
+	border: 1px solid white;
+}
+
+.grandeur {
+	text-align: center;
+	background-color: orange;
+}
+
+.valeur {
+	padding: 0.5em;
+	background-color: yellow;
+}

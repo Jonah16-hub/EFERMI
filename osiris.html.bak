@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <title>Osiris - EFERMI</title>
+</head>
+
+<body>
+  <h1>Osiris</h1>
+  <p>
+    <br>
+    HD 209458 b , plus communément connue sous le nom de "Osiris" est une exoplanète qui a été découverte en 1999. Elle se situe à 154 années-lumières du Soleil, dans la constellation de pégase. <br>
+    Il s'agit d'une des exoplanètes les plus importantes vis-à-vis de l'évolution de la recherche d'exoplanètes.
+    <br><br>
+
+    En effet , concernant la découvertes d'explanètes, elle se trouve au podium de plusieurs catégories:<br>- première planète découverte par son transit devant son étoile<br> - première exoplanète dont l'atmosphère a été détectée. <br>- première planète connue dont l'atmosphère d'hydrogène s'évapore. <br> - première exoplanète dans l'atmosphère de laquelle de l'oxygène et du carbone ont été détectés.<br> - une des deux premières exoplanètes à être directement observées par spectroscopie. <br>
+    Et bien d'autres "premières fois" .
+    <br>
+    <br>
+    <br>
+    Le tableau suivant contient les caractéristiques de la planète, selon <a href="https://fr.wikipedia.org/wiki/HD_209458_b">Wikipédia</a>
+  </p>
+
+  <table>
+    <tr>
+      <th class="grandeur">Masse : </th>
+      <th class="valeur">0,69 (± 0,05) Mj </th>
+    </tr>
+    <tr>
+      <th class="grandeur">Température : </th>
+      <th class="valeur">1 130 (± 150) K</th>
+    </tr>
+  </table>
+
+  <a href="accueil.html">Retour à la page d'accueil</a>
+
+  <figure>
+    <img src="osiris.jpg" alt="Osiris">
+    <figcaption>Vue d'artiste d'Osiris transitant devant son étoile'<br>
+      Source : <a href="https://fr.wikipedia.org/wiki/HD_209458_b#/media/Fichier:Transiting_planet_HD_209458b.png">
+        Wikipédia</a>
+    </figcaption>
+  </figure>
+
+</body>
+
+</html>
+<!-- partial -->
+  
+</body>
+</html>

@@ -1,0 +1,136 @@
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Votre exoplanète - EFERMI</title>
+	</head>
+	<body>
+			<header>
+				<form>
+					<h1>Vous connaissez une exoplanète intéressante ? Inscrivez-là dans notre sélection !</h1>
+
+					<h2>Remplissez d'abord vos coordonnées</h2>
+
+					<p>
+						Nom<br>
+						<input type="text" placeholder="Nom">
+					</p>
+					<p>
+						Prénom<br>
+						<input type="text" placeholder="Prénom">
+					</p>
+					<p>
+						Adresse<br>
+						<input type="text" placeholder="Adresse">
+					</p>
+					<p>
+						Téléphone<br>
+						<input type="text" placeholder="Téléphone">
+					</p>
+
+					<p>
+						Adresse email<br>
+						<input type="email" placeholder="Adresse email">
+					</p>
+					
+					<h2>Remplissez les caractéristiques de votre planète</h2>
+
+					<p>
+						Nom de l'exoplanète<br>
+						<input type="text" placeholder="Exoplanète">
+					</p>
+
+					<p>
+						Type de planète :
+						<select>
+							<option value="Rocheuse">Rocheuse</option>
+							<option value="Gazeuse">Gazeuse</option>
+						</select>
+					</p>
+					
+					<p>
+						Masse (par rapport à la Terre)
+						<input type="number" id="masseValeur" placeholder = "Masse"><br>
+						Masse volumique (en g/cm^3)
+						<input type="number" id="mvolValeur" placeholder = "Masse volumique"><br>
+						Rayon (par rapport à Jupiter)
+						<input type="number" id="rayonValeur" placeholder = "Rayon"><br>
+						Température (en K)
+						<input type="number" id="tempValeur" placeholder = "Température"><br>
+						
+						
+						
+	
+						<table id="grandeurs">
+							<tr>
+								<th class="grandeur">Masse (par rapport à la Terre)</th>
+								<th class="valeur"></th>
+							</tr>
+							<tr>
+								<th class="grandeur">Masse volumique (en g/cm^3)</th>
+								<th class="valeur"></th>
+							</tr>
+							<tr>
+								<th class="grandeur">Rayon (par rapport à Jupiter)</th>
+								<th class="valeur"></th>
+							</tr>
+							<tr>
+								<th class="grandeur">Température (en K)</th>
+								<th class="valeur"></th>
+							</tr>
+						</table>
+						<br>
+					
+					<input type="button" value="Remplir" onClick="remplirTableau()">
+						
+					<script type="text/javascript">
+					
+					
+					
+ 
+function remplirTableau() {
+{  
+	var table = document.getElementById('grandeurs');
+
+    var row = document.createElement('tr');
+	var td1 = document.createElement('td');
+	var td2 = document.createElement('td');
+	var td3 = document.createElement('td');
+	var td4 = document.createElement('td');
+	
+	td1.innerHTML = document.getElementById('masseValeur').value;
+	td2.innerHTML = document.getElementById('mvolValeur').value;
+	td3.innerHTML = document.getElementById('rayonValeur').value;
+	td4.innerHTML = document.getElementById('tempValeur').value;
+	
+	row.appendChild(td1);
+	row.appendChild(td2);
+	row.appendChild(td3);
+	row.appendChild(td4);
+	
+	table.children[0].appendChild(row);
+
+}
+	
+</script>
+
+						<h3>Moyen de découverte :</h3>
+					<p>
+						<input type="checkbox"> Téléscope de chez Nature et Découverte<br>
+						<input type="checkbox"> Téléscope de laboratoire<br><br>
+					</p>
+					
+					<p>
+						Je souhaite recevoir un diplôme
+						<input type="checkbox">
+					</p>
+
+				</form>
+			</header>
+			
+			<input type="button" value="Envoyer"><br>
+			
+			<a href="accueil.html">Retour à la page d'accueil</a>
+	</body>
+</html>
